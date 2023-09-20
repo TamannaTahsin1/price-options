@@ -12,7 +12,7 @@ const PriceOption = ({option}) => {
                 <span className='text-2xl'>/mon</span>
             </h2>
             <h4 className='text-2xl'>{name}</h4>
-            <div className='pl-6 flex-grow'>
+            <div className='pl-6 flex-grow mt-4'>
             {
                 // eslint-disable-next-line react/prop-types
                 features.map((feature, idx) => <Feature key={idx} feature={feature}></Feature> )

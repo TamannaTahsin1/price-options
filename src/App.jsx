@@ -1,6 +1,7 @@
 import './App.css'
-// import DaisyNav from './Component/Daisynavbar/DaisyNav'
+import LineChart from './Component/LineCharts/Linechart';
 import Navbar from './Component/Navbar/Navbar';
+import Phones from './Component/Phones/Phones';
 import PriceOptions from './Component/PriceOptions/PriceOptions';
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <Navbar></Navbar>
       {/* <DaisyNav></DaisyNav> */}
       <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
+      <Phones></Phones>
     </>
   )
 }
